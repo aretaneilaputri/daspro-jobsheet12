@@ -45,6 +45,11 @@ Pertanyaan Percobaan 3
 value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh 
 dari program kafe pada Percobaan 3 untuk masing-masing kasus. 
 Jawaban: Fungsi dalam pemrograman memiliki tujuan yang berbeda tergantung kebutuhan. Fungsi yang tidak mengembalikan nilai atau menggunakan void cocok digunakan ketika fungsinya hanya untuk melakukan suatu aksi, misalnya menampilkan menu kafe, ucapan selamat datang, atau informasi promo, karena tidak ada nilai yang perlu dikirim kembali ke program utama. Sebaliknya, fungsi yang mengembalikan nilai diperlukan ketika hasil dari fungsi tersebut akan dipakai lagi, misalnya menghitung total harga pesanan. Nilai yang dikembalikan kemudian dapat disimpan di variabel dan digunakan untuk menampilkan hasil atau melakukan perhitungan lebih lanjut.
+2. Fungsi hitungTotalHargaNoAbsen saat ini mengembalikan total harga berdasarkan 
+pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua 
+buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing 
+parameter dalam konteks program kafe.
+Jawaban: Fungsi hitungTotalHargaNoAbsen menghitung total harga pesanan berdasarkan menu dan jumlah item. Tipe kembalian fungsi ini int, karena hasil perhitungannya perlu dipakai di program utama. Parameter pilihanMenu menentukan menu yang dipilih, sedangkan jumlahPesanan menunjukkan berapa banyak item yang dibeli. Fungsi ini membantu program kafe menghitung total bayar secara otomatis sesuai pesanan pelanggan.
 
 
 
