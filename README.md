@@ -30,6 +30,11 @@ Jawaban: Jika fungsi Menu() dipanggil tanpa menyertakan parameter namaPelanggan 
 Jika kodePromo adalah "DISKON50", tampilkan berikan diskon 50%. Jika kodePromo 
 adalah "DISKON30", tampilkan berikan diskon 30%. Jika tidak ada kode promo yang 
 berlaku, tampilkan kode invalid.
+7. Berdasarkan fungsi Menu() di atas, jika nama pelanggan adalah "Budi", pelanggan 
+tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris 
+perintah pemanggilan fungsi menu yang benar. 
+Jawaban: Perintah pemanggilan fungsi yang benar adalah menu("Budi", true, "DISKON30");
+
 
 
 
