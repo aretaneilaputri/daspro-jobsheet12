@@ -20,6 +20,10 @@ namaPelanggan dan isMember?
 Jawaban: Fungsi menu() menggunakan parameter namaPelanggan dan isMember karena menu yang ditampilkan tidak hanya bersifat statis, tetapi juga perlu menyesuaikan informasi yang diberikan pengguna. Parameter namaPelanggan digunakan agar program bisa memberikan sapaan yang berbeda untuk setiap orang, sedangkan parameter isMember digunakan untuk menentukan apakah pelanggan berhak mendapatkan informasi tentang diskon atau tidak. Dengan cara ini, fungsi menjadi lebih fleksibel karena dapat menampilkan menu dengan konteks yang berbeda sesuai data yang dikirim dari main().
 3. Apakah parameter sama dengan variabel? Jelaskan.
 Jawaban: Parameter mirip dengan variabel, tetapi keduanya tidak sepenuhnya sama. Parameter adalah variabel khusus yang digunakan untuk menerima nilai ketika fungsi dipanggil. Jadi, parameter baru mendapatkan nilai saat fungsi dipanggil, sedangkan variabel biasa langsung diberi nilai di dalam program tanpa perlu pemanggilan fungsi. Singkatnya, parameter adalah variabel yang digunakan sebagai penampung nilai kiriman dari luar fungsi.
+4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu(). Apa 
+perbedaan output ketika isMember bernilai true dan ketika false? 
+Jawaban: Parameter isMember digunakan untuk mengecek status pelanggan melalui kondisi if. Saat nilainya true, program menampilkan informasi bahwa pelanggan mendapat diskon karena member. Namun, jika nilainya false, bagian pesan diskon tidak ditampilkan. Jadi, output yang muncul akan berbeda tergantung status member pelanggan tersebut.
+
 
 
 
