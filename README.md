@@ -8,4 +8,7 @@ Jawaban:Ya, daftar menu pada program kafe tetap dapat ditampilkan meskipun tanpa
 3. Jelaskan keuntungan menggunakan fungsi Menu() dibandingkan menulis semua 
 perintah penampilan menu langsung di dalam fungsi main.
 Jawaban: Menggunakan fungsi menu() lebih menguntungkan karena kode jadi lebih rapi dan tidak perlu menulis ulang bagian menu berkali-kali. Kalau nanti ada perubahan harga atau penambahan menu, cukup mengubah di satu tempat saja tanpa harus mencari di seluruh program. Jadi lebih praktis, mudah dibaca, dan lebih cepat diperbaiki.
+4.  Uraikan secara singkat alur eksekusi program ketika fungsi Menu() dipanggil dari main 
+(mulai dari program dijalankan sampai daftar menu tampil di layar). 
+Jawaban:Ketika program dijalankan, pertama komputer akan mengeksekusi bagian main() karena itulah titik awal program. Di dalam main(), terdapat perintah untuk memanggil fungsi menu(). Saat perintah itu dijalankan, alur program berpindah dari main() ke fungsi menu(), kemudian semua perintah System.out.println() di dalam fungsi tersebut dijalankan sehingga daftar menu tampil di layar. Setelah semua baris di fungsi menu() selesai dieksekusi, alur program kembali lagi ke main() dan melanjutkan perintah berikutnya (jika ada).
 
