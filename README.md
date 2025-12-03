@@ -26,7 +26,10 @@ Jawaban: Parameter isMember digunakan untuk mengecek status pelanggan melalui ko
 5. Apa yang akan terjadi jika memanggil fungsi Menu() tanpa menyertakan parameter 
 namaPelanggan dan isMember?
 Jawaban: Jika fungsi Menu() dipanggil tanpa menyertakan parameter namaPelanggan dan isMember, maka program akan error (compile error). ini terjadi karena fungsi tersebut sudah didefinisikan dengan dua parameter, sehingga pemanggilannya harus sesuai dengan format tersebut. Dengan kata lain, Java tidak dapat menjalankan fungsi karena tidak ada data yang dikirim untuk mengisi parameter yang dibutuhkan.
-
+6. Modifikasi kode di atas dengan menambahkan parameter baru kodePromo (String). 
+Jika kodePromo adalah "DISKON50", tampilkan berikan diskon 50%. Jika kodePromo 
+adalah "DISKON30", tampilkan berikan diskon 30%. Jika tidak ada kode promo yang 
+berlaku, tampilkan kode invalid.
 
 
 
