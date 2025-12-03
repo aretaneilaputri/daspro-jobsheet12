@@ -40,6 +40,12 @@ dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa pa
 Jelaskan alasan Anda.
 Jawaban: Iya,karena penggunaan parameter membuat program lebih mudah dibaca dan dikembangkan. Dengan adanya parameter namaPelanggan dan isMember, fungsi dapat digunakan untuk berbagai kondisi tanpa harus mengubah isi fungsi setiap kali ada pelanggan baru atau status berbeda. Program jadi lebih fleksibel, rapi, dan mudah diperbaiki karena nilai yang digunakan tidak dikunci di dalam fungsi, melainkan dikirim saat pemanggilan fungsi. Selain itu, jika nanti ada fitur tambahan seperti level member atau promo lain, fungsi dapat ditambah tanpa harus menulis ulang kode dari awal.
 
+Pertanyaan Percobaan 3
+1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return 
+value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh 
+dari program kafe pada Percobaan 3 untuk masing-masing kasus. 
+Jawaban: Fungsi dalam pemrograman memiliki tujuan yang berbeda tergantung kebutuhan. Fungsi yang tidak mengembalikan nilai atau menggunakan void cocok digunakan ketika fungsinya hanya untuk melakukan suatu aksi, misalnya menampilkan menu kafe, ucapan selamat datang, atau informasi promo, karena tidak ada nilai yang perlu dikirim kembali ke program utama. Sebaliknya, fungsi yang mengembalikan nilai diperlukan ketika hasil dari fungsi tersebut akan dipakai lagi, misalnya menghitung total harga pesanan. Nilai yang dikembalikan kemudian dapat disimpan di variabel dan digunakan untuk menampilkan hasil atau melakukan perhitungan lebih lanjut.
+
 
 
 
