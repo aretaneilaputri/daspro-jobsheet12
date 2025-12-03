@@ -12,3 +12,8 @@ Jawaban: Menggunakan fungsi menu() lebih menguntungkan karena kode jadi lebih ra
 (mulai dari program dijalankan sampai daftar menu tampil di layar). 
 Jawaban:Ketika program dijalankan, pertama komputer akan mengeksekusi bagian main() karena itulah titik awal program. Di dalam main(), terdapat perintah untuk memanggil fungsi menu(). Saat perintah itu dijalankan, alur program berpindah dari main() ke fungsi menu(), kemudian semua perintah System.out.println() di dalam fungsi tersebut dijalankan sehingga daftar menu tampil di layar. Setelah semua baris di fungsi menu() selesai dieksekusi, alur program kembali lagi ke main() dan melanjutkan perintah berikutnya (jika ada).
 
+Pertanyaan Percobaan 2
+1. Apakah kegunaan parameter di dalam fungsi? 
+Jawaban: Parameter dalam fungsi digunakan sebagai tempat menerima data dari luar fungsi, sehingga fungsi bisa bekerja lebih fleksibel dan tidak hanya bergantung pada nilai yang sudah ditulis di dalamnya. Dengan parameter, satu fungsi bisa digunakan untuk berbagai input berbeda tanpa harus menulis ulang kodenya.
+
+
