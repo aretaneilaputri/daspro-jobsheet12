@@ -50,6 +50,12 @@ pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua
 buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing 
 parameter dalam konteks program kafe.
 Jawaban: Fungsi hitungTotalHargaNoAbsen menghitung total harga pesanan berdasarkan menu dan jumlah item. Tipe kembalian fungsi ini int, karena hasil perhitungannya perlu dipakai di program utama. Parameter pilihanMenu menentukan menu yang dipilih, sedangkan jumlahPesanan menunjukkan berapa banyak item yang dibeli. Fungsi ini membantu program kafe menghitung total bayar secara otomatis sesuai pesanan pelanggan.
+3. Modifikasi kode di atas sehingga fungsi hitungTotalHargaNoAbsen dapat menerima 
+kodePromo. Jika kodePromo adalah "DISKON50", maka mendapat diskon 50% dari 
+totalHarga dan tampilkan diskon. Jika kodePromo adalah "DISKON30", maka 
+mendapat diskon 30% dari totalHarga dan tampilkan diskon. Jika tidak ada kode 
+promo yang berlaku, tampilkan kode invalid dan tidak ada pengurangan total harga 
+totalHarga.
 
 
 
