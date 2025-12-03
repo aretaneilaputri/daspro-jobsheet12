@@ -23,6 +23,10 @@ Jawaban: Parameter mirip dengan variabel, tetapi keduanya tidak sepenuhnya sama.
 4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu(). Apa 
 perbedaan output ketika isMember bernilai true dan ketika false? 
 Jawaban: Parameter isMember digunakan untuk mengecek status pelanggan melalui kondisi if. Saat nilainya true, program menampilkan informasi bahwa pelanggan mendapat diskon karena member. Namun, jika nilainya false, bagian pesan diskon tidak ditampilkan. Jadi, output yang muncul akan berbeda tergantung status member pelanggan tersebut.
+5. Apa yang akan terjadi jika memanggil fungsi Menu() tanpa menyertakan parameter 
+namaPelanggan dan isMember?
+Jawaban: Jika fungsi Menu() dipanggil tanpa menyertakan parameter namaPelanggan dan isMember, maka program akan error (compile error). ini terjadi karena fungsi tersebut sudah didefinisikan dengan dua parameter, sehingga pemanggilannya harus sesuai dengan format tersebut. Dengan kata lain, Java tidak dapat menjalankan fungsi karena tidak ada data yang dikirim untuk mengisi parameter yang dibutuhkan.
+
 
 
 
