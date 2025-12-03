@@ -5,11 +5,9 @@ public class Kafe03 {
 
     public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
         System.out.println("Selamat datang, " + namaPelanggan + "!");
-        
         if (isMember) {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
         }
-
         if (kodePromo.equalsIgnoreCase("DISKON50")) {
             System.out.println("Kode promo valid! Anda mendapatkan diskon 50%!");
         } else if (kodePromo.equalsIgnoreCase("DISKON30")) {
@@ -34,13 +32,13 @@ public class Kafe03 {
         int totalHarga = hargaItems[pilihanMenu - 1] * banyakItem;
 
         if (kodePromo.equalsIgnoreCase("DISKON50")) {
-            System.out.println("Diskon 50% diterapkan!");
+            System.out.println("Diskon 50% diterapkan pada menu " + pilihanMenu + "!");
             totalHarga -= totalHarga * 50 / 100;
         } else if (kodePromo.equalsIgnoreCase("DISKON30")) {
-            System.out.println("Diskon 30% diterapkan!");
+            System.out.println("Diskon 30% diterapkan pada menu " + pilihanMenu + "!");
             totalHarga -= totalHarga * 30 / 100;
         } else {
-            System.out.println("Kode promo invalid, tidak ada diskon yang diterapkan!");
+            System.out.println("Kode promo invalid, tidak ada diskon yang diterapkan pada menu " + pilihanMenu + "!");
         }
 
         return totalHarga;
@@ -49,18 +47,28 @@ public class Kafe03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Menu("Andi", true, "DISKON50");
+        System.out.print("Masukkan kode promo: ");
+        String kodePromo = sc.nextLine();
 
-        System.out.print("\nMasukkan nomor menu yang ingin Anda pesan: ");
-        int pilihanMenu = sc.nextInt();
+        Menu("Andi", true, kodePromo);
 
-        System.out.print("Masukkan jumlah item yang ingin dipesan: ");
-        int banyakItem = sc.nextInt();
+        System.out.print("\nBerapa jenis menu yang ingin dipesan? ");
+        int jumlahJenisMenu = sc.nextInt();
 
-        int totalHarga = hitungTotalHarga03(pilihanMenu, banyakItem, "DISKON50");
+        int totalAkhir = 0;
 
-        System.out.println("Total harga untuk pesanan Anda: Rp " + totalHarga);
+        for (int i = 0; i < jumlahJenisMenu; i++) {
+            System.out.println("\n===== Pesanan ke-" + (i + 1) + " =====");
+            System.out.print("Masukkan nomor menu yang ingin Anda pesan: ");
+            int pilihanMenu = sc.nextInt();
+            System.out.print("Masukkan jumlah item yang ingin dipesan: ");
+            int banyakItem = sc.nextInt();
 
-        sc.close();
+            int totalMenu = hitungTotalHarga03(pilihanMenu, banyakItem, kodePromo);
+            totalAkhir += totalMenu;
+        }
+
+        System.out.println("\nTotal harga untuk pesanan Anda: Rp " + totalAkhir);
+
     }
 }
