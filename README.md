@@ -90,6 +90,24 @@ Jawaban:
 9.Hasil perhitungan volume dikembalikan ke variabel vol.
 10.Program menampilkan volume balok.
 11.Scanner ditutup dan program selesai.
+2. Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna 
+memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur 
+jalannya program sampai output tersebut muncul.
+Jawaban:output yang dihasilkan jika pengguna memasukkan:output yang dihasilkan jika pengguna memasukkan:
+panjang = 4, lebar = 3, dan tinggi = 5 adalah:
+Masukkan panjang
+4
+Masukkan lebar
+3
+Masukkan tinggi
+5
+Luas persegi adalah 12
+Volume balok adalah 60
+alur programnya:
+Ketika program dijalankan, pengguna diminta memasukkan nilai panjang, lebar, dan tinggi. Setelah nilai dimasukkan, program memanggil fungsi hitungLuas(4, 3) yang menghitung luas persegi panjang dengan rumus 4 × 3 = 12, lalu hasilnya ditampilkan. Setelah itu, program memanggil fungsi hitungVolume(5, 4, 3) yang menghitung volume balok menggunakan luas yang sudah dihitung dan dikalikan dengan tinggi: 12 × 5 = 60. Hasil volume kemudian ditampilkan ke layar. Setelah semua perhitungan selesai, program berakhir.
+
+
+
 
 
 
