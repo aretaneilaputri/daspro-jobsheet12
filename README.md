@@ -105,6 +105,17 @@ Luas persegi adalah 12
 Volume balok adalah 60
 alur programnya:
 Ketika program dijalankan, pengguna diminta memasukkan nilai panjang, lebar, dan tinggi. Setelah nilai dimasukkan, program memanggil fungsi hitungLuas(4, 3) yang menghitung luas persegi panjang dengan rumus 4 × 3 = 12, lalu hasilnya ditampilkan. Setelah itu, program memanggil fungsi hitungVolume(5, 4, 3) yang menghitung volume balok menggunakan luas yang sudah dihitung dan dikalikan dengan tinggi: 12 × 5 = 60. Hasil volume kemudian ditampilkan ke layar. Setelah semua perhitungan selesai, program berakhir.
+3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program 
+tersebut!
+Jawaban: Alur program:
+1.Program dimulai dari method main().
+2.Di dalam main, program memanggil fungsi Jumlah(1, 1) yang menghitung 1 + 1 dan hasilnya temp = 2.
+3.Selanjutnya program memanggil fungsi TampilJumlah(temp, 5), berarti sebenarnya memanggil TampilJumlah(2, 5).
+4.Di dalam TampilJumlah, program memanggil TampilHinggaKei(Jumlah(2, 5)).
+5.Fungsi Jumlah(2, 5) menghitung 2 + 5 = 7.
+6.Lalu program menjalankan TampilHinggaKei(7), yang mencetak angka dari 1 sampai 7 tanpa spasi.
+7.Maka output akhirnya adalah: 1234567
+
 
 
 
