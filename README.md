@@ -126,6 +126,10 @@ boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume
 di Percobaan 5. 
 Jawaban: Fungsi sebaiknya menggunakan parameter ketika nilai yang digunakan bisa berbeda-beda setiap kali fungsi dipanggil, seperti hitungLuas dan hitungVolume di percobaan 5 yang membutuhkan panjang, lebar, dan tinggi dari pengguna. Karena nilainya tidak tetap, maka fungsi harus memakai parameter.
 Sebaliknya, fungsi boleh tanpa parameter jika tugasnya tetap sama meskipun dipanggil berulang kali, dan tidak membutuhkan input tambahan, misalnya fungsi hanya menampilkan teks atau menu yang tidak berubah.
+6. Jelaskan kapan sebuah fungsi sebaiknya memiliki nilai kembalian (return value) dan 
+kapan tidak perlu memiliki nilai kembalian, dengan mengacu pada fungsi main, 
+hitungLuas, dan hitungVolume. 
+Jawaban: Fungsi sebaiknya memiliki nilai kembalian jika hasil dari fungsi tersebut masih akan digunakan dalam proses lain, seperti hitungLuas dan hitungVolume yang menghasilkan nilai perhitungan dan dikembalikan ke program untuk ditampilkan. Sebaliknya, fungsi tidak perlu memiliki nilai kembalian jika tujuannya hanya menjalankan perintah tanpa perlu memberikan hasil kembali, seperti fungsi main yang hanya mengatur jalannya program dan tidak perlu menghasilkan nilai apa pun.
 
 
 
