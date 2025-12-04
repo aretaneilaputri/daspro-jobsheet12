@@ -114,8 +114,13 @@ Jawaban: Alur program:
 4.Di dalam TampilJumlah, program memanggil TampilHinggaKei(Jumlah(2, 5)).
 5.Fungsi Jumlah(2, 5) menghitung 2 + 5 = 7.
 6.Lalu program menjalankan TampilHinggaKei(7), yang mencetak angka dari 1 sampai 7 tanpa spasi.
-7.Maka output akhirnya adalah: 1234567
-
+7.Maka output akhirnya adalah:1234567
+4. Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak? 
+Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak? 
+Jelaskan! 
+Jawaban:Penggunaan parameter atau nilai kembalian tergantung pada kebutuhan fungsi tersebut.
+Fungsi perlu menggunakan parameter ketika fungsi membutuhkan data dari luar agar bisa diproses, misalnya menghitung luas berdasarkan panjang dan lebar. Jika fungsi tidak perlu data tambahan dan hanya menampilkan sesuatu yang sama setiap kali dipanggil (misalnya menampilkan menu), maka parameter tidak diperlukan.
+Sedangkan untuk nilai kembalian, fungsi harus memilikinya ketika hasil perhitungan atau proses di dalam fungsi masih dibutuhkan untuk proses lanjutan, seperti menghitung total harga lalu dipakai kembali. Jika fungsi hanya menampilkan output ke layar dan hasilnya tidak perlu digunakan lagi oleh bagian program lain, maka fungsi tidak perlu nilai kembalian dan cukup menggunakan void.
 
 
 
