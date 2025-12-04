@@ -66,6 +66,7 @@ Pertanyaan Percobaan 4
 1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String... 
 namaPengunjung!
 Jawaban: Penulisan parameter String... namaPengunjung digunakan karena di bagian ini jumlah nama yang dimasukkan tidak selalu sama setiap pemanggilan fungsi. Kadang hanya satu nama, kadang banyak. Dengan varargs, program bisa menampung semua nama tanpa perlu menentukan jumlah parameternya dari awal. Jadi lebih fleksibel, simpel, dan tetap bekerja meskipun jumlah input berbeda-beda.
+2. Modifikasi method daftarPengunjung menggunakan for-each loop.
 
 
 
