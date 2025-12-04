@@ -70,6 +70,10 @@ Jawaban: Penulisan parameter String... namaPengunjung digunakan karena di bagian
 3. Bisakah menggunakan dua tipe data varaargs dalam satu fungsi? Jelaskan jawaban 
 Anda berdasarkan aturan varargs di Java, dan berikan contohnya!
 Jawaban:Tidak, Java tidak mengizinkan dua varargs dalam satu fungsi karena bisa membuat program bingung membedakan data mana yang masuk ke varargs pertama dan mana yang masuk ke varargs kedua. Aturannya, satu fungsi hanya boleh punya satu varargs dan harus diletakkan di posisi paling akhir. Namun, varargs masih bisa digabung dengan parameter biasa selama posisinya tetap di akhir.
+4. Jelaskan apa yang terjadi jika fungsi daftarPengunjung dipanggil tanpa argumen. 
+Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan? 
+Jika tetap berjalan, bagaimana output yang dihasilkan?
+Jawaban: Jika fungsi daftarPengunjung dipanggil tanpa argumen, program tetap berjalan dan tidak terjadi error, baik saat kompilasi maupun saat dijalankan. Hal ini karena varargs (String...) secara otomatis dianggap sebagai array kosong jika tidak ada data yang diberikan. Output yang muncul tetap menunjukkan judul daftar, tetapi tidak ada nama yang ditampilkan di bawahnya.
 
 
 
