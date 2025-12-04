@@ -67,6 +67,10 @@ Pertanyaan Percobaan 4
 namaPengunjung!
 Jawaban: Penulisan parameter String... namaPengunjung digunakan karena di bagian ini jumlah nama yang dimasukkan tidak selalu sama setiap pemanggilan fungsi. Kadang hanya satu nama, kadang banyak. Dengan varargs, program bisa menampung semua nama tanpa perlu menentukan jumlah parameternya dari awal. Jadi lebih fleksibel, simpel, dan tetap bekerja meskipun jumlah input berbeda-beda.
 2. Modifikasi method daftarPengunjung menggunakan for-each loop.
+3. Bisakah menggunakan dua tipe data varaargs dalam satu fungsi? Jelaskan jawaban 
+Anda berdasarkan aturan varargs di Java, dan berikan contohnya!
+Jawaban:Tidak, Java tidak mengizinkan dua varargs dalam satu fungsi karena bisa membuat program bingung membedakan data mana yang masuk ke varargs pertama dan mana yang masuk ke varargs kedua. Aturannya, satu fungsi hanya boleh punya satu varargs dan harus diletakkan di posisi paling akhir. Namun, varargs masih bisa digabung dengan parameter biasa selama posisinya tetap di akhir.
+
 
 
 
