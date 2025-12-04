@@ -75,6 +75,22 @@ Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berj
 Jika tetap berjalan, bagaimana output yang dihasilkan?
 Jawaban: Jika fungsi daftarPengunjung dipanggil tanpa argumen, program tetap berjalan dan tidak terjadi error, baik saat kompilasi maupun saat dijalankan. Hal ini karena varargs (String...) secara otomatis dianggap sebagai array kosong jika tidak ada data yang diberikan. Output yang muncul tetap menunjukkan judul daftar, tetapi tidak ada nama yang ditampilkan di bawahnya.
 
+Pertanyaan Percobaan 5
+1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program 
+dijalankan hingga menampilkan luas persegi panjang dan volume balok! 
+Jawaban: 
+1.Program dimulai pada method main() setelah dijalankan.
+2.Program menyiapkan scanner untuk menerima input dari pengguna.
+3 User memasukkan nilai panjang, lalu program menyimpannya ke variabel p.
+4.User memasukkan nilai lebar, lalu disimpan ke variabel l.
+5.User memasukkan nilai tinggi, lalu disimpan ke variabel t.
+6.Program memanggil fungsi hitungLuas(p, l), lalu fungsi menghitung p * l dan mengembalikan hasilnya ke variabel L.
+7.Program menampilkan hasil luas persegi panjang menggunakan nilai L.
+8.Program memanggil fungsi hitungVolume(t, p, l), fungsi ini memanggil hitungLuas() lagi untuk menghitung luas, lalu mengalikannya dengan tinggi untuk mendapatkan volume.
+9.Hasil perhitungan volume dikembalikan ke variabel vol.
+10.Program menampilkan volume balok.
+11.Scanner ditutup dan program selesai.
+
 
 
 
